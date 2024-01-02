@@ -31,7 +31,7 @@ public class ContaDAO {
             preparedStatement.setString(3, dadosDaConta.dadosCliente().nome());
             preparedStatement.setString(4, dadosDaConta.dadosCliente().cpf());
             preparedStatement.setString(5, dadosDaConta.dadosCliente().email());
-            preparedStatement.setBoolean(6, true);
+//            preparedStatement.setBoolean(6, true);
 
             preparedStatement.execute();
             preparedStatement.close();
